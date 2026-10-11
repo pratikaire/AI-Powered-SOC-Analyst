@@ -1,0 +1,21 @@
+timestamp,event_id,computer,account,source_ip,logon_type,status,message
+2026-10-10T09:00:00Z,4624,DEMO-PC,pratik,192.0.2.20,2,0x0,Successful logon sample
+2026-10-10T09:01:00Z,4625,DEMO-PC,demo-user,192.0.2.55,3,0xC000006D,Failed logon sample
+2026-10-10T09:02:00Z,4625,DEMO-PC,demo-user,192.0.2.55,3,0xC000006D,Failed logon sample
+2026-10-10T09:03:00Z,4625,DEMO-PC,demo-user,192.0.2.55,3,0xC000006D,Failed logon sample
+2026-10-10T09:04:00Z,4625,DEMO-PC,demo-user,192.0.2.55,3,0xC000006D,Failed logon sample
+2026-10-10T09:05:00Z,4625,DEMO-PC,demo-user,192.0.2.55,3,0xC000006D,Failed logon sample
+2026-10-10T09:06:00Z,4624,DEMO-PC,demo-user,192.0.2.55,3,0x0,Successful logon after failures
+2026-10-10T09:08:00Z,4634,DEMO-PC,demo-user,192.0.2.55,3,,Logoff sample
+2026-10-10T09:12:00Z,4672,DEMO-PC,admin-demo,192.0.2.70,2,,Special privileges sample
+2026-10-10T09:15:00Z,4625,DEMO-PC,guest-demo,192.0.2.88,3,0xC000006D,Single failed logon sample
+2026-10-10T09:16:00Z,4625,DEMO-PC,guest-demo,192.0.2.88,3,0xC000006D,Failed logon sample
+2026-10-10T09:17:00Z,4625,DEMO-PC,guest-demo,192.0.2.88,3,0xC000006D,Failed logon sample
+2026-10-10T09:18:00Z,4625,DEMO-PC,guest-demo,192.0.2.88,3,0xC000006D,Failed logon sample
+2026-10-10T09:19:00Z,4625,DEMO-PC,guest-demo,192.0.2.88,3,0xC000006D,Failed logon sample
+2026-10-10T09:20:00Z,4625,DEMO-PC,alice,192.0.2.99,3,0xC000006D,Password spray sample
+2026-10-10T09:21:00Z,4625,DEMO-PC,bob,192.0.2.99,3,0xC000006D,Password spray sample
+2026-10-10T09:22:00Z,4625,DEMO-PC,carol,192.0.2.99,3,0xC000006D,Password spray sample
+2026-10-10T09:23:00Z,4625,DEMO-PC,dave,192.0.2.99,3,0xC000006D,Password spray sample
+2026-10-10T09:24:00Z,4625,DEMO-PC,erin,192.0.2.99,3,0xC000006D,Password spray sample
+2026-10-10T09:25:00Z,4624,DEMO-PC,alice,192.0.2.99,3,0x0,Success after failures sample
